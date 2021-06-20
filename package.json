@@ -8,7 +8,7 @@
     "nx": "nx",
     "start": "ng serve",
     "build": "ng build first --base-href /first/ && ng build second --base-href /second/ && cp landing/index.html dist/",
-    "generate": "npx scully --project=first && npx scully --project=second && cp landing/index.html dist/static/",
+    "generate": "npx scully --project first && npx scully --project second && cp landing/index.html dist/static/",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
