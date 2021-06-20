@@ -25,6 +25,13 @@
     "first-e2e": {
       "tags": [],
       "implicitDependencies": ["first"]
+    },
+    "second": {
+      "tags": []
+    },
+    "second-e2e": {
+      "tags": [],
+      "implicitDependencies": ["second"]
     }
   }
 }
