@@ -1,0 +1,9 @@
+name = "nx-test-cloudflare"
+type = 'webpack'
+account_id = '42f52134966285dc79f4fb191fcff412'
+route = ''
+zone_id = ''
+usage_model = ''
+workers_dev = true
+target_type = "webpack"
+site = {bucket = "./dist/static",entry-point = "workers-site"}
